@@ -10,6 +10,7 @@ readme = "README.md"
 keywords = ["korean", "morphological", "dictionary", "loader", "ko-dic"]
 categories = ["text-processing"]
 license = "MIT"
+build = "build.rs"
 
 [features]
 ko-dic = ["encoding", "flate2", "tar"]

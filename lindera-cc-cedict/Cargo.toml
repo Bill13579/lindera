@@ -10,6 +10,7 @@ readme = "README.md"
 keywords = ["chinese", "morphological", "dictionary", "loader", "cc-cedict"]
 categories = ["text-processing"]
 license = "MIT"
+build = "build.rs"
 
 [features]
 cc-cedict = ["encoding", "zip"]

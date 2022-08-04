@@ -10,6 +10,7 @@ readme = "README.md"
 keywords = ["japanese", "morphological", "dictionary", "loader", "unidic"]
 categories = ["text-processing"]
 license = "MIT"
+build = "build.rs"
 
 [features]
 unidic = ["encoding", "zip", "ureq"]
